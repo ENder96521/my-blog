@@ -1,4 +1,4 @@
-baseURL: "https://examplesite.com/"
+baseURL: "https://ender-blog.pages.dev/"
 title: "Ender's Blog"
 pagination.pagerSize: 5
 theme: PaperMod
