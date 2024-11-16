@@ -67,10 +67,10 @@ params:
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
+    enabled: true # needs to be explicitly set
+    title: Ender's Blog
+    subtitle: "這只是一個部落格"
+    imageUrl: "img/logo.gif"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
@@ -82,16 +82,16 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "嗨 \U0001F44B"
+    Content: "歡迎來到我的部落格"
+
+  taxonomies:
+    tag: tags
+    category: categories
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/ENder96521"
 
   analytics:
     google:
@@ -106,11 +106,6 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
-
   # for search
   # https://fusejs.io/api/options.html
   fuseOpts:
@@ -121,7 +116,7 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
-    keys: ["title", "permalink", "summary", "content"]
+    keys: ["title", "permalink", "summary", "content", "category", "tag"]
 menu:
   main:
     - identifier: archives 
@@ -129,21 +124,17 @@ menu:
       url: /archives/
       weight: 10
     - identifier: categories
-      name: categories
+      name: 分類
       url: /categories/
       weight: 10
     - identifier: tags
-      name: tags
+      name: 標籤
       url: /tags/
       weight: 20
     - identifier: search 
       name: 搜尋
       url: /search/
       weight: 40
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
