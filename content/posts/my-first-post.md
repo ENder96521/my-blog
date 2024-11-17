@@ -5,7 +5,13 @@ Tags:
 Categories:
   - 語言
 TocOpen: true
+keyword:
+    - C語言
+    - 新手
+    - 工程師
 author:
+description:
+    - 從頭開始學習C語言-入門第一天
   - Ender
 comments: true
 cover:
@@ -21,7 +27,7 @@ hidemeta: false
 lastmod: '2024-11-16'
 showToc: true
 showbreadcrumbs: true
-slug: ''
+slug: 'C-learning-day-1'
 title: 從頭開始學習C語言-入門第一天
 weight: null # 置頂
 ---

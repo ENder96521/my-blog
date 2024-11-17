@@ -8,6 +8,12 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+sitemap:
+  changefreq : "monthly"
+  filename : "sitemap.xml"
+  priority : 0.5
+
+
 minify:
   disableXML: true
   minifyOutput: true
@@ -85,6 +91,7 @@ params:
     Title: "嗨 \U0001F44B"
     Content: "歡迎來到我的部落格"
 
+  
   taxonomies:
     tag: tags
     category: categories
