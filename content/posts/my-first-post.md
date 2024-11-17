@@ -10,9 +10,9 @@ keyword:
     - 新手
     - 工程師
 author:
+    - Ender
 description:
     - 從頭開始學習C語言-入門第一天
-  - Ender
 comments: true
 cover:
   alt: ''
