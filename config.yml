@@ -30,7 +30,7 @@ params:
   keywords: [Blog, Portfolio, PaperMod]
   author: Ender
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["img/cover.png"]
   DateFormat: "2006-01-02"
   defaultTheme: dark # dark, light
   disableThemeToggle: false
